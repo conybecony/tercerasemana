@@ -106,7 +106,7 @@ ipc     <- c(1.000,  1.043,  1.087,  1.135)
 anios   <- 2020:2023
 
 salario_real <- salario / ipc      # descuenta el efecto de la inflación
-round(salario_real)
+round(salario_real, 2)
 
 # 🔮 PREDICE: ¿en qué años el salario real superó los 460.000?
 anios[salario_real > 460000]

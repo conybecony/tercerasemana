@@ -13,7 +13,9 @@
 #
 # Regla IA: ChatGPT es CONSULTOR, no escritor. Debes poder explicar cada línea.
 # =============================================================================
-
+rep(c("ñuble", "maule", "metro"), each=3)
+rep(c("ñuble", "maule", "metro"), 3)
+rep(2007:2009, 3)
 
 # -----------------------------------------------------------------------------
 # PASO 1 — Los cinco tipos (repaso de la Sesión 1)
