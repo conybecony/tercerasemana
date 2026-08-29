@@ -35,33 +35,23 @@ quantile(proporcion_arriendo_mensual) # en q1, el 25% gasta entre 20% y el 35% d
 
 #6
 # En el bloque 1 se crean tres vectores relacionados, cada arriendo 
-# se paga con ingresos en el añio, además se verifica la clase y longitud 
+# se paga con ingresos en el año, además se verifica la clase y longitud 
 # porque es necesario comprobar que los datos tienen la categoría correcta y 
 # que todas las variables contienen la misma cantidad de observaciones.
 
 # En el bloque 2 se seleccionan posiciones ya que permite revisar casos concretos.
 
-# En el bloque 3 se identifica qué proporción en el ingreso superior o igual a ese nivel dentro de la muestra.
+# En el bloque 3 se identifica qué números son en el ingreso superior o igual a ese nivel dentro de la muestra
+# y esto da valores de verdadero y falso, además de con los demás comandos podemos ver el promedio y la suma de esos true or false.
 
-# En el bloque 4 se calcula la proporción además de la cantidad porque conocer el porcentaje
-# permite interpretar el resultado en relación con el total de trabajadores.
+# En el bloque 4 se calcula la proporción de cuanto es el porcentaje de ingreso que se gasta en arriendo
+# porque conocer el porcentaje permite interpretar el resultado de lo que investigamos.
 
-# Se calcula el salario real porque el salario nominal no considera los efectos
-# de la inflación y, por lo tanto, puede sobreestimar el poder adquisitivo.
-
-# Se calculan distintas estadísticas porque el promedio por sí solo no permite
-# conocer completamente cómo están distribuidos los salarios.
-
-# Se utiliza la media para conocer el nivel salarial promedio de la muestra,
-# mientras que la mediana permite identificar el valor central sin que los
-# salarios muy altos influyan tanto en el resultado.
-
-# Se calcula la desviación estándar porque permite evaluar qué tan diferentes
-# son los salarios entre los trabajadores respecto del promedio.
-
-# Se calculan los cuantiles porque permiten observar la distribución de los
-# salarios y comparar los niveles de ingreso entre distintos grupos de la muestra.
-
+# En el bloque 5 calculamos la media para concer el promedio, la mediana para el valor de al medio,
+# desviación estándar, qué tan dispersos está la proporción respecto al promedio 
+# y cuartiles porque queremos conocer cómo se distribuyen los valores que 
+# representan al 25%, 50% y 75% de la muestra.
+# todo eso permite obtener una visión más completa de la situación económica.
 
 
 
